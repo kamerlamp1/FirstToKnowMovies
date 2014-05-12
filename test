@@ -1,0 +1,9 @@
+<?php 
+
+$dbh = new PDO ('mysql:host=localhost:dbname=members','root','');
+
+ if ($mysqli->connect_errno) {
+        echo "<p>MySQL error no {$mysqli->connect_errno} : {$mysqli->connect_error}</p>";
+        exit();
+        ?>
+
